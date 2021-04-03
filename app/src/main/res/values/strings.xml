@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">짜요짜요</string>
+    <string name="error"> </string>
+    <string name="stage">STAGE %d</string>
+    <string name="erase">지우기</string>
+    <string name="word_quiz">단어퀴즈</string>
+    <string name="blank_quiz">빈칸퀴즈</string>
+    <string name="arrange_quiz">배열퀴즈</string>
+    <string name="life">♥ × %d</string>
+    <string name="remaining">남은 퀴즈 수 × %d</string>
+</resources>
