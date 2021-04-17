@@ -8,4 +8,8 @@
     <string name="arrange_quiz">배열퀴즈</string>
     <string name="life">♥ × %d</string>
     <string name="remaining">남은 퀴즈 수 × %d</string>
+    <string name="test">TEST</string>
+    <string name="part_2">PART 2</string>
+    <string name="part_1">PART 1</string>
+    <string name="video">VIDEO</string>
 </resources>
