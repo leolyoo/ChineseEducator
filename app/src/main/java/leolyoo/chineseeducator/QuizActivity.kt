@@ -17,12 +17,12 @@ class QuizActivity : AppCompatActivity() {
     private var viewModel = QuizViewModel(
         { initViews() },
         {
-            if (it) Toast.makeText(this, "Good!", Toast.LENGTH_SHORT).show()
-            else Toast.makeText(this, "Bad...", Toast.LENGTH_SHORT).show()
+            if (it) Toast.makeText(this, getLargeText("Good!"), Toast.LENGTH_SHORT).show()
+            else Toast.makeText(this, getLargeText("Bad..."), Toast.LENGTH_SHORT).show()
         },
         {
             if (it) {
-                Toast.makeText(this, "Pass!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getLargeText("Pass!"), Toast.LENGTH_SHORT).show()
                 if (QuizCookie.isExam) {
                     val sharedPref =
                         getSharedPreferences(
@@ -34,7 +34,7 @@ class QuizActivity : AppCompatActivity() {
                         apply()
                     }
                 }
-            } else Toast.makeText(this, "Fail...", Toast.LENGTH_SHORT).show()
+            } else Toast.makeText(this, getLargeText("Fail..."), Toast.LENGTH_SHORT).show()
             finish()
         }
     )
@@ -58,7 +58,7 @@ class QuizActivity : AppCompatActivity() {
 
     private fun initViews() {
         lifeTextView.text = getString(R.string.life, viewModel.life)
-        questionTextView.text = viewModel.tmpQuestion
+        questionTextView.text = getBiggerText(viewModel.tmpQuestion)
         meaningTextView.text = viewModel.tmpMeaning
         remainingTextView.text = getString(R.string.remaining, viewModel.remaining)
         choiceAdapter.notifyDataSetChanged()

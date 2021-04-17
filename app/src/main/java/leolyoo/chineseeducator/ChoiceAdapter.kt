@@ -20,7 +20,7 @@ class ChoiceAdapter(private val quizViewModel: QuizViewModel) :
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.choiceButton.text = quizViewModel.tmpChoices[position]
+        holder.choiceButton.text = getBiggerText(quizViewModel.tmpChoices[position])
         holder.choiceButton.setOnClickListener {
             quizViewModel.choose(position)
         }

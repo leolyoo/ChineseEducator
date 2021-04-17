@@ -1,21 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bitmap_main_background"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <leolyoo.chineseeducator.StageButton
-        android:id="@+id/button_stage_01"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:indexStage="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_margin="10dp">
 
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="1"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_02"
+            app:layout_constraintEnd_toStartOf="@id/button_stage_02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="2"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_03"
+            app:layout_constraintEnd_toStartOf="@id/button_stage_03"
+            app:layout_constraintStart_toEndOf="@id/button_stage_01"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_01" />
+
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="3"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_04"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/button_stage_02"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_02" />
+
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="4"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_05"
+            app:layout_constraintEnd_toStartOf="@id/button_stage_03"
+            app:layout_constraintStart_toEndOf="@id/button_stage_05"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_03" />
+
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="5"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_06"
+            app:layout_constraintEnd_toStartOf="@id/button_stage_04"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_04" />
+
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="6"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_07"
+            app:layout_constraintEnd_toStartOf="@id/button_stage_07"
+            app:layout_constraintStart_toEndOf="@id/button_stage_05"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_05" />
+
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="7"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_08"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/button_stage_06"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_06" />
+
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="8"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_09"
+            app:layout_constraintEnd_toStartOf="@id/button_stage_07"
+            app:layout_constraintStart_toEndOf="@id/button_stage_09"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_07" />
+
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="9"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_10"
+            app:layout_constraintEnd_toStartOf="@id/button_stage_08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_08" />
+
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="10"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_11"
+            app:layout_constraintEnd_toStartOf="@id/button_stage_11"
+            app:layout_constraintStart_toEndOf="@id/button_stage_09"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_09" />
+
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="11"
+            app:layout_constraintBottom_toTopOf="@id/button_stage_12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/button_stage_10"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_10" />
+
+        <leolyoo.chineseeducator.StageButton
+            android:id="@+id/button_stage_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indexStage="12"
+            app:layout_constraintEnd_toStartOf="@id/button_stage_11"
+            app:layout_constraintStart_toEndOf="@id/button_stage_09"
+            app:layout_constraintTop_toBottomOf="@id/button_stage_11" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

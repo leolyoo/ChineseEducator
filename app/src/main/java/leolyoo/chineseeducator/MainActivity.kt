@@ -19,6 +19,17 @@ class MainActivity : AppCompatActivity() {
             showStageDialog(it, getClearDate(sharedPref, it))
         }
         findViewById<StageButton>(R.id.button_stage_01).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_02).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_03).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_04).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_05).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_06).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_07).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_08).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_09).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_10).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_11).setOnStageClickListener(listener)
+        findViewById<StageButton>(R.id.button_stage_12).setOnStageClickListener(listener)
     }
 
     private fun getClearDate(sharedPref: SharedPreferences, indexStage: Int): String {
