@@ -22,7 +22,7 @@ class WriteActivity : AppCompatActivity() {
         private val paint = Paint()
         val color = Color.BLACK
 
-        override fun onDraw(canvas: Canvas?) {
+        override fun onDraw(canvas: Canvas) {
             super.onDraw(canvas)
 
             paint.strokeWidth = 4F
