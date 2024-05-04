@@ -7,8 +7,4 @@ TTS: 어떻게 발음되는지 들어보세요.
 연습장: gif 이미지를 보면서 따라 써 보세요.
 
 # 이미지
-![ChineseEducator_01](https://github.com/leolyoo/ChineseEducator/assets/44722792/eb996b91-461a-4c5b-bcdc-2a65dd77e79a)
-![ChineseEducator_02](https://github.com/leolyoo/ChineseEducator/assets/44722792/f33680ad-3be5-4683-96ea-6988353a332d)
-![ChineseEducator_03](https://github.com/leolyoo/ChineseEducator/assets/44722792/c4f1806e-417a-42fd-b3ba-b1dcdaa2c5eb)
-![ChineseEducator_04](https://github.com/leolyoo/ChineseEducator/assets/44722792/134f0a70-31d3-4107-bf51-5aec1960f25e)
-![ChineseEducator_05](https://github.com/leolyoo/ChineseEducator/assets/44722792/884c86e2-b74e-4f8a-a514-2c8ed83bca49)
+![ChineseEducator_01](https://github.com/leolyoo/ChineseEducator/assets/44722792/eb996b91-461a-4c5b-bcdc-2a65dd77e79a)![ChineseEducator_02](https://github.com/leolyoo/ChineseEducator/assets/44722792/f33680ad-3be5-4683-96ea-6988353a332d)![ChineseEducator_03](https://github.com/leolyoo/ChineseEducator/assets/44722792/c4f1806e-417a-42fd-b3ba-b1dcdaa2c5eb)![ChineseEducator_04](https://github.com/leolyoo/ChineseEducator/assets/44722792/134f0a70-31d3-4107-bf51-5aec1960f25e)![ChineseEducator_05](https://github.com/leolyoo/ChineseEducator/assets/44722792/884c86e2-b74e-4f8a-a514-2c8ed83bca49)
